@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>管理员登陆成功界面</title>
+		<meta name="viewport" content="width=devise-width initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/homepage.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/managerLogin.css" />
+		<link rel="stylesheet" href="__ROOT__/ueditor/themes/default/ueditor.css"/>
+		<script src="__PUBLIC__/js/jquery-2.1.4.min.js"></script>
+		<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/js/managerLogin.js"></script>
+		<script type="text/javascript" src="__ROOT__/ueditor/editor_config.js"></script>
+        <script type="text/javascript" src="__ROOT__/ueditor/editor_all.js"></script>
+
+	</head>
+
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">
+							<img alt="logo" id="logo" src="__PUBLIC__/img/logo1.png" width="50px">
+							<img alt="font" id="font" src="__PUBLIC__/img/font_siyuan1.png" width="100px" />
+						</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav" id="mytab">
+							<li class="active"><a href="#public" data-toggle="tab">文章管理 </a></li>
+							<li><a href="#manage" data-toggle="tab">成员管理</a></li>
+							<li><a href="#mass_email" data-toggle="tab">群发邮件</a></li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+
+		<div class="tab-content">
+			<div class=" tab-pane active" id="public">
+				<div class="jumbotron" style="background-color: gray; color: white;min-height: 100px">
+					<div class="container">
+						<h2>欢迎来到思源管理员界面</h2>
+						<p>在这里，你可以发表、删除通知 / 新闻,查看、删除成员信息,群发邮件...</p>
+					</div>
+				</div>
+
+				<div class="jumbotron" style="background-color:gainsboro;margin-top:0px">
+					<div class="container">
+						<h2 style="border-bottom:1px solid darkgrey ;padding-bottom: 10px;">发表通知 / 新闻稿</h2>
+						<!--提交发表新闻表单-->
+						<form class="form-horizontal" action="">
+							<div class="form-group">
+								<label class="col-sm-2 col-md-2 col-md-offset-3 control-label">请选择文章分类:</label>
+								<div class="col-sm-3 col-md-3">
+									<select class="form-control" name="select_news">
+										<option>通知</option>
+										<option>新闻稿</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputPassword3" class="col-md-2 control-label">文章标题:</label>
+								<div class="col-md-9">
+									<input type="password" class="form-control" id="inputPassword3" placeholder="请输入标题...">
+								</div>
+							</div>
+							<div id="myEditor">
+	       
+
+
+
+		     <script type="text/javascript">
+				var editor = new baidu.editor.ui.Editor({
+				    initialContent: ' '
+				});
+				editor.render("myEditor");
+			</script>
+		</div>
+
+
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="jumbotron tab-pane" id="manage">
+				<div class="container">
+					<h2 style="border-bottom:1px solid gainsboro ;padding-bottom: 10px;">查看、删除成员信息</h2>
+					<!--提交查看成员表单-->
+					<form class="form-horizontal" action="" id="form_screen">
+						<div class="form-group">
+							<label class="col-md-1 text-right" style="padding-top: 8px;">筛选对象:</label>
+							<div class="col-md-4">
+								<select class="form-control" name="option_grade" id="option_grade">
+									<option>2015</option>
+									<option>2014</option>
+									<option>2013</option>
+									<option>2012</option>
+									<option>所有年级</option>
+								</select>
+							</div>
+							<div class="col-md-4">
+								<select class="form-control" name="option_group" id="option_group">
+									<option>生委</option>
+									<option>受助生</option>
+									<option>其他</option>
+									<option>全部</option>
+								</select>
+							</div>
+
+							<div class="col-md-1">
+								<button type="submit" class="btn btn-success" id="lookup">查看成员</button>
+							</div>
+							<div class="col-md-1">
+								<button type="submit" class="btn btn-success" id="export_data">导出数据</button>
+							</div>
+						</div>
+					</form>
+                    <!--成员列表 -->
+					<div>
+						<table class="table table-striped table-hover" class="addtr">
+							<tr>
+								<th>姓名</th>
+								<th>学号</th>
+								<th>手机号码</th>
+								<th>电子邮箱</th>
+								<th>年级</th>
+								<th>班级</th>
+								<th>分类</th>
+								<th>操作</th>
+							</tr>
+							<tr>
+								<td>陈嘉兴</td>
+								<td>201303320603</td>
+								<td>18814127392</td>
+								<td>1320279417@qq.com</td>
+								<td>2013</td>
+								<td>13计机6班</td>
+								<td>生委</td>
+								<td><a href="#">删除</a></td>
+							</tr>
+							
+
+						</table>
+					</div>
+					<div class="row">
+						<nav class="text-right col-md-10">
+							<ul class="pagination pagination-lg">
+								<li class="disabled">
+									<a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+								</li>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">- -</a></li>
+								<li><a href="#">8</a></li>
+								<li><a href="#">9</a></li>
+								<li><a href="#">10</a></li>
+								<li>
+									<a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+								</li>
+							</ul>
+						</nav>
+						<div class="col=md-2">
+							<p style="padding-top: 25px;">共有<span>120</span>位学生</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="jumbotron tab-pane" id="mass_email" style="">
+				<div class="container">
+					<h2 style="border-bottom:1px solid darkgrey ;padding-bottom: 10px;">群发邮件</h2>
+					<!--提交群发邮件表单-->
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label for="" class="col-md-2 control-label">群发对象:</label>
+							<div class="col-md-5">
+								<select class="form-control" name="option_grade" id="option_grade">
+									<option>2015</option>
+									<option>2014</option>
+									<option>2013</option>
+									<option>2012</option>
+									<option>所有年级</option>
+								</select>
+							</div>
+							<div class="col-md-5" name="option_group" id="option_group">
+								<select class="form-control">
+									<option>生委</option>
+									<option>受助生</option>
+									<option>其他</option>
+									<option>全部</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="" class="col-md-2 control-label">主题:</label>
+							<div class="col-md-10">
+								<input type="text" class="form-control" id="inputPassword3" placeholder="请输入主题">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-md-2 control-label">正文:</label>
+							<div class="col-md-10">
+								<textarea class="form-control" rows="14" placeholder="请输入群发内容"></textarea>
+							</div>
+						</div>
+					</form>
+					<div class="col-md-offset-11">
+						<button type="submit" class="btn btn-lg btn-success">发&nbsp;&nbsp;&nbsp;&nbsp;送</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

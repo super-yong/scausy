@@ -1,0 +1,32 @@
+.self_data{
+	margin-top: -20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-bottom: 2px solid gray;
+	text-align: center;
+}
+
+a:focus{
+	outline: none;
+}
+
+#font{
+	display: inline;
+	margin-top: -10px;
+	margin-left: -5px;
+}
+#logo {
+	margin-top: -13px;
+	display: inline;
+}
+#mytab,#login{
+	font-size: 17px;
+	font-weight: 600;
+	/*padding-left: 10px;*/
+}
+
+.siyuan_title{
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+}

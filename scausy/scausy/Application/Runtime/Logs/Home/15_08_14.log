@@ -1,0 +1,1173 @@
+[ 2015-08-14T00:00:55+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=123456%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0057s ]
+SQL: select * from sy_students where id='123456 ' [ RunTime:0.0018s ]
+
+[ 2015-08-14T00:01:04+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=123456%20&password=1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0043s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0007s ]
+
+[ 2015-08-14T00:01:05+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0029s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2015-08-14T00:01:08+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0030s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002176s ]
+
+[ 2015-08-14T00:01:08+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0052s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2015-08-14T00:01:10+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0045s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2015-08-14T00:01:11+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0030s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2015-08-14T00:01:12+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0044s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2015-08-14T00:01:14+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0035s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2015-08-14T00:01:14+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0028s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2015-08-14T00:01:15+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0037s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2015-08-14T00:01:16+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0030s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2015-08-14T00:01:18+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0046s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2015-08-14T00:01:30+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002218s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0026s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2015-08-14T00:01:31+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0036s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2015-08-14T00:01:31+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0056s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2015-08-14T00:01:32+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0040s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2015-08-14T00:01:33+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0028s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2015-08-14T00:01:37+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=123456%20&password=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0044s ]
+SQL: select * from sy_students where id ='123456' AND password ='b0baee9d279d34fa1dfd71aadb908c3f' [ RunTime:0.0008s ]
+
+[ 2015-08-14T00:01:37+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang%20?%20username=123456&password=11111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0051s ]
+SQL: select * from sy_students where id ='123456' AND password ='b0baee9d279d34fa1dfd71aadb908c3f' [ RunTime:0.0011s ]
+
+[ 2015-08-14T00:01:37+08:00 ] 127.0.0.1 /tk/index.php/home/?username=123456&password=11111&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2015-08-14T00:01:42+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001898s ]
+
+[ 2015-08-14T09:34:51+08:00 ] 127.0.0.1 /tk/index.php/home/?username=123456&password=11111&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2015-08-14T09:34:53+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2015-08-14T09:34:54+08:00 ] 127.0.0.1 /TK/index.php/home/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2015-08-14T09:38:34+08:00 ] 127.0.0.1 /tk/index.php/home/?username=123456&password=11111&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-08-14T09:38:34+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2015-08-14T09:38:38+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=201330340514%20&password=337356lcy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0299s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='d07c1e725900bd80247a4335bd28c574' [ RunTime:0.0008s ]
+
+[ 2015-08-14T09:38:45+08:00 ] 127.0.0.1 /tk/index.php/home/home/login/zhengfang?username=201330340514&password=337356lcy&code=5ns2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+ERR: 无法加载控制器:Home
+
+[ 2015-08-14T09:39:15+08:00 ] 127.0.0.1 /tk/index.php/home/?username=123456&password=11111&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2015-08-14T09:39:18+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2015-08-14T09:39:24+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=201330340514%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0052s ]
+SQL: select * from sy_students where id='201330340514 ' [ RunTime:0.0008s ]
+
+[ 2015-08-14T09:39:30+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=201330340514%20&password=337356lcy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0056s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='d07c1e725900bd80247a4335bd28c574' [ RunTime:0.0010s ]
+
+[ 2015-08-14T09:39:45+08:00 ] 127.0.0.1 /tk/index.php/home/login/zhengfang?username=201330340514&password=337356lcy&code=cqd1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2015-08-14T09:40:05+08:00 ] 127.0.0.1 /tk/home/login/sentEmail?college=%E6%95%B0%E5%AD%A6%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AD%A6%E9%99%A2&name=%E5%88%98%E8%B6%85%E5%8B%87&studentnumber=201330340514&grade=2013&major=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%5B%E8%BD%AF%E4%BB%B6%5D&class=13%E8%BD%AF%E5%B7%A5R5&password=d07c1e725900bd80247a4335bd28c574&email=601647957%40qq.com&phone=15016291385&group=%E5%85%B6%E4%BB%96
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0028s ]
+SQL: INSERT INTO `sy_students` (`id`,`grade`,`major`,`class`,`name`,`email`,`groups`,`college`,`phone`,`created`,`password`) VALUES ('201330340514','2013','软件工程[软件]','13软工R5','刘超勇','601647957@qq.com','其他','数学与信息学院','15016291385','1439602798','d07c1e725900bd80247a4335bd28c574') [ RunTime:0.0753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-08-14T09:40:09+08:00 ] 127.0.0.1 /tk/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2015-08-14T09:40:10+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2015-08-14T09:40:15+08:00 ] 127.0.0.1 /tk/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-08-14T09:40:15+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2015-08-14T09:40:42+08:00 ] 127.0.0.1 /tk/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2015-08-14T09:40:42+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-08-14T09:41:13+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=201330340514%20&password=337356lcy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0040s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='d07c1e725900bd80247a4335bd28c574' [ RunTime:0.0015s ]
+
+[ 2015-08-14T09:41:19+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=201330340514%20&password=337356lcy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0046s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='d07c1e725900bd80247a4335bd28c574' [ RunTime:0.0013s ]
+
+[ 2015-08-14T09:41:20+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=201330340514%20&password=337356lcy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0052s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='d07c1e725900bd80247a4335bd28c574' [ RunTime:0.0007s ]
+
+[ 2015-08-14T09:42:21+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=201330340514%20&password=337356lcy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0050s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='d07c1e725900bd80247a4335bd28c574' [ RunTime:0.0010s ]
+
+[ 2015-08-14T09:44:21+08:00 ] 127.0.0.1 /tk/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002104s ]
+
+[ 2015-08-14T09:44:21+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2015-08-14T09:44:21+08:00 ] 127.0.0.1 /tk/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001881s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2015-08-14T09:44:21+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2015-08-14T09:44:22+08:00 ] 127.0.0.1 /tk/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2015-08-14T09:44:22+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2015-08-14T09:44:22+08:00 ] 127.0.0.1 /tk/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2015-08-14T09:44:22+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2015-08-14T09:44:22+08:00 ] 127.0.0.1 /tk/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000795s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000875s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2015-08-14T09:44:22+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2015-08-14T09:44:25+08:00 ] 127.0.0.1 /tk/home/login/zhengfang?username=201330340514&password=337356lcy&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0036s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='d07c1e725900bd80247a4335bd28c574' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-08-14T09:45:07+08:00 ] 127.0.0.1 /tk/home/login/zhengfang?username=201330340514&password=337356lcy&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\tk\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0040s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='d07c1e725900bd80247a4335bd28c574' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2015-08-14T09:46:08+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=201330340514%20&password=337356lcy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0049s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='d07c1e725900bd80247a4335bd28c574' [ RunTime:0.0007s ]
+
+[ 2015-08-14T15:58:31+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2015-08-14T15:58:41+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0042s ]
+SQL: select * from sy_students where id=' ' [ RunTime:0.0011s ]
+
+[ 2015-08-14T15:58:43+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0052s ]
+SQL: select * from sy_students where id=' ' [ RunTime:0.0012s ]
+
+[ 2015-08-14T15:58:43+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0038s ]
+SQL: select * from sy_students where id=' ' [ RunTime:0.0011s ]
+
+[ 2015-08-14T16:03:05+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2015-08-14T16:03:18+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=123456%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0047s ]
+SQL: select * from sy_students where id='123456 ' [ RunTime:0.0011s ]
+
+[ 2015-08-14T16:03:18+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=root%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0042s ]
+SQL: select * from sy_students where id='root ' [ RunTime:0.0010s ]
+
+[ 2015-08-14T16:03:26+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=123456%20&password=1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0048s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0009s ]
+
+[ 2015-08-14T16:03:48+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=123456%20&password=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0075s ]
+SQL: select * from sy_students where id ='123456' AND password ='6512bd43d9caa6e02c990b0a82652dca' [ RunTime:0.0013s ]
+
+[ 2015-08-14T16:03:54+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=123456%20&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0028s ]
+SQL: select * from sy_students where id ='123456' AND password ='202cb962ac59075b964b07152d234b70' [ RunTime:0.0005s ]
+
+[ 2015-08-14T16:04:08+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=201330340514%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0033s ]
+SQL: select * from sy_students where id='201330340514 ' [ RunTime:0.0005s ]
+
+[ 2015-08-14T16:04:08+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=201330340514%20&password=555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0035s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='15de21c670ae7c3f6f3f1f37029303c9' [ RunTime:0.0013s ]
+
+[ 2015-08-14T16:07:28+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2015-08-14T16:07:33+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=44%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0045s ]
+SQL: select * from sy_students where id='44 ' [ RunTime:0.0008s ]
+
+[ 2015-08-14T16:07:35+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=44%20&password=444
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0053s ]
+SQL: select * from sy_students where id ='44' AND password ='550a141f12de6341fba65b0ad0433500' [ RunTime:0.0010s ]
+
+[ 2015-08-14T16:10:48+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2015-08-14T16:10:51+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=qqq%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002661s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0035s ]
+SQL: select * from sy_students where id='qqq ' [ RunTime:0.0009s ]
+
+[ 2015-08-14T16:10:54+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=qqq%20&password=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0048s ]
+SQL: select * from sy_students where id ='qqq' AND password ='b0baee9d279d34fa1dfd71aadb908c3f' [ RunTime:0.0006s ]
+
+[ 2015-08-14T16:10:58+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=qqq%20&password=11111111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002790s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0050s ]
+SQL: select * from sy_students where id ='qqq' AND password ='1bbd886460827015e5d605ed44252251' [ RunTime:0.0013s ]
+
+[ 2015-08-14T16:11:18+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=201330340514%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0027s ]
+SQL: select * from sy_students where id='201330340514 ' [ RunTime:0.0005s ]
+
+[ 2015-08-14T16:11:20+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=201330340514%20&password=337356lcy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0045s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='d07c1e725900bd80247a4335bd28c574' [ RunTime:0.0012s ]
+
+[ 2015-08-14T16:11:48+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=20133034051%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0031s ]
+SQL: select * from sy_students where id='20133034051 ' [ RunTime:0.0005s ]
+
+[ 2015-08-14T16:11:48+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=20133034051%20&password=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0039s ]
+SQL: select * from sy_students where id ='20133034051' AND password ='698d51a19d8a121ce581499d7b701668' [ RunTime:0.0007s ]
+
+[ 2015-08-14T16:13:09+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-08-14T16:13:28+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=444%20&password=4444
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0061s ]
+SQL: select * from sy_students where id ='444' AND password ='dbc4d84bfcfe2284ba11beffb853a8c4' [ RunTime:0.0004s ]
+
+[ 2015-08-14T16:13:28+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=444%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0061s ]
+SQL: select * from sy_students where id='444 ' [ RunTime:0.0004s ]
+
+[ 2015-08-14T16:13:48+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=123456%20&password=1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0029s ]
+SQL: select * from sy_students where id ='123456' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0004s ]
+
+[ 2015-08-14T16:13:48+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=123456%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0027s ]
+SQL: select * from sy_students where id='123456 ' [ RunTime:0.0006s ]
+
+[ 2015-08-14T16:13:52+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=123456%20&password=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0033s ]
+SQL: select * from sy_students where id ='123456' AND password ='698d51a19d8a121ce581499d7b701668' [ RunTime:0.0010s ]
+
+[ 2015-08-14T16:18:47+08:00 ] 127.0.0.1 /tk/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2015-08-14T16:21:06+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=%20&password=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0049s ]
+SQL: select * from sy_students where id=' ' [ RunTime:0.0011s ]
+
+[ 2015-08-14T16:21:08+08:00 ] 127.0.0.1 /tk/index.php/home/login/login%20?%20studentnumber=%20&password=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002714s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0050s ]
+SQL: select * from sy_students where id ='' AND password ='f7177163c833dff4b38fc8d2872f1ec6' [ RunTime:0.0013s ]
+
+[ 2015-08-14T16:21:09+08:00 ] 127.0.0.1 /tk/index.php/home/login/login?%20studentnumber=44444%20&password=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0038s ]
+SQL: select * from sy_students where id ='44444' AND password ='f7177163c833dff4b38fc8d2872f1ec6' [ RunTime:0.0005s ]
+

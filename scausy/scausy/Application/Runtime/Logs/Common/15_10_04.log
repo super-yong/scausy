@@ -1,0 +1,54 @@
+[ 2015-10-04T10:51:53+08:00 ] 127.0.0.1 /1/webroot/Public/css/openNews.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-04T11:36:00+08:00 ] 127.0.0.1 /1/webroot/Public/css/openNews.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-04T11:36:05+08:00 ] 127.0.0.1 /1/webroot/Public/css/openNews.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-04T11:36:10+08:00 ] 127.0.0.1 /1/webroot/Public/css/openNews.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-04T11:36:15+08:00 ] 127.0.0.1 /1/webroot/Public/css/openNews.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-04T11:37:31+08:00 ] 127.0.0.1 /1/webroot/Public/css/openNews.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-04T11:52:51+08:00 ] 127.0.0.1 /1/webroot/__ROOT__/index.php/home/login/zhengfang%20?%20username=admain&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-04T11:53:16+08:00 ] 127.0.0.1 /1/webroot/__ROOT__/index.php/home/login/zhengfang%20?%20username=admin&password=1111&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-04T11:56:42+08:00 ] 127.0.0.1 /1/webroot/Public/assets/css/bootstrap-responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Public
+

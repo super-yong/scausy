@@ -1,0 +1,2382 @@
+[ 2016-02-17T00:15:08+08:00 ] 220.181.108.84 /index.php/home/index/showArticle?group=Article&id=48
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0260s ]
+SQL: UPDATE `sy_article` SET `createtime`=createtime+1 WHERE `id` = 48 [ RunTime:0.0254s ]
+SQL: SELECT * FROM `sy_article` WHERE `id` = 48  [ RunTime:0.0257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/bb3616881cce080f44387b372b32f896.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/bb3616881cce080f44387b372b32f896.php 第 65 行.
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/bb3616881cce080f44387b372b32f896.php 第 67 行.
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/bb3616881cce080f44387b372b32f896.php 第 68 行.
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/bb3616881cce080f44387b372b32f896.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-02-17T00:41:45+08:00 ] 121.42.0.38 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0859s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005754s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005708s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005866s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001506s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007731s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-02-17T00:51:36+08:00 ] 220.181.108.158 /scausy/home/index/exemplar?P=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `sy_essay` [ RunTime:0.0248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_essay` LIMIT 1   [ RunTime:0.0239s ]
+SQL: SELECT * FROM `sy_essay` ORDER BY id desc LIMIT 6,6   [ RunTime:0.0965s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002723s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002884s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001363s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004610s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-02-17T02:40:09+08:00 ] 123.125.71.79 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0916s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005156s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005310s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001384s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007055s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-02-17T02:46:08+08:00 ] 220.181.108.182 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1367s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005238s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005411s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007783s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001494s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007252s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-02-17T02:47:59+08:00 ] 42.62.36.76 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1680s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0336s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005307s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005468s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007735s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001452s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007225s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-02-17T02:57:41+08:00 ] 203.208.60.7 /scausy/home/index/showExemplar?id=31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `sy_essay` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `sy_essay` WHERE `id` = 31  [ RunTime:0.0256s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-02-17T03:01:05+08:00 ] 42.62.36.76 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0902s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005153s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005322s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007560s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001446s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007078s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-02-17T03:34:53+08:00 ] 203.208.60.113 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1381s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005171s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005329s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007593s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001441s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007085s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-02-17T04:34:30+08:00 ] 123.125.71.91 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1645s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005170s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005333s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007858s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001486s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007132s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-02-17T04:46:26+08:00 ] 220.181.108.181 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0951s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005067s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005223s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001394s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006915s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-02-17T04:49:01+08:00 ] 42.62.37.182 /scausy/home/index/exemplar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `sy_essay` [ RunTime:0.0184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_essay` LIMIT 1   [ RunTime:0.0177s ]
+SQL: SELECT * FROM `sy_essay` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0884s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-02-17T04:49:02+08:00 ] 42.62.37.182 /scausy/home/index/exemplar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `sy_essay` [ RunTime:0.0352s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_essay` LIMIT 1   [ RunTime:0.0337s ]
+SQL: SELECT * FROM `sy_essay` ORDER BY id desc LIMIT 0,6   [ RunTime:0.1676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002706s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002861s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005028s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001354s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004508s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-02-17T05:33:50+08:00 ] 123.125.71.56 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0890s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005240s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005466s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001454s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007226s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-02-17T05:41:27+08:00 ] 220.181.108.96 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0787s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005218s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005373s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007538s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001361s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007056s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-02-17T06:46:02+08:00 ] 157.55.39.78 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0909s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005046s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005253s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001751s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007321s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-02-17T07:30:32+08:00 ] 123.125.71.72 /scausy/home/index/showExemplar?id=39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `sy_essay` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `sy_essay` WHERE `id` = 39  [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-02-17T07:48:42+08:00 ] 66.249.66.72 /scausy/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-02-17T08:32:51+08:00 ] 42.62.36.72 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1290s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-02-17T08:32:51+08:00 ] 42.62.36.72 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1303s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005106s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005262s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007606s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001518s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007088s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-02-17T08:45:33+08:00 ] 220.181.108.78 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1186s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005316s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005478s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007742s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001407s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007221s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-02-17T08:46:33+08:00 ] 42.62.36.76 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1309s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-02-17T08:46:34+08:00 ] 42.62.36.76 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1190s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005165s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005378s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007626s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001373s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007121s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-02-17T09:40:41+08:00 ] 123.125.71.78 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1002s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005112s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005359s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007673s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001490s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007164s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-02-17T12:18:31+08:00 ] 66.249.66.111 /scausy/home/index/showExemplar?id=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `sy_essay` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sy_essay` WHERE `id` = 32  [ RunTime:0.0381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-02-17T13:40:46+08:00 ] 123.125.71.49 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0804s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005227s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005382s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001343s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007030s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-02-17T13:46:39+08:00 ] 220.181.108.156 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1056s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005675s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005453s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005648s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001625s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007643s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-02-17T14:19:37+08:00 ] 42.62.36.76 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0938s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-02-17T14:19:37+08:00 ] 42.62.36.76 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1237s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005352s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005524s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007783s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001416s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007266s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-02-17T14:42:34+08:00 ] 220.181.108.152 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1279s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005212s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005431s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007652s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001366s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007108s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-02-17T14:47:43+08:00 ] 66.249.66.111 /scausy/home/index/showArticle?group=Article&id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0171s ]
+SQL: UPDATE `sy_article` SET `createtime`=createtime+1 WHERE `id` = 35 [ RunTime:0.0174s ]
+SQL: SELECT * FROM `sy_article` WHERE `id` = 35  [ RunTime:0.0322s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2016-02-17T15:17:57+08:00 ] 66.249.66.113 /scausy/home/index/showArticle?group=Article&id=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0203s ]
+SQL: UPDATE `sy_article` SET `createtime`=createtime+1 WHERE `id` = 42 [ RunTime:0.0204s ]
+SQL: SELECT * FROM `sy_article` WHERE `id` = 42  [ RunTime:0.0384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-02-17T16:12:39+08:00 ] 119.147.146.189 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0892s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005178s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005333s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001404s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007040s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-02-17T16:34:16+08:00 ] 66.249.66.111 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0909s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005161s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005317s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001433s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007056s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-02-17T16:43:21+08:00 ] 220.181.108.184 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1297s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005555s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005515s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005681s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007956s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001394s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007432s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-02-17T17:52:54+08:00 ] 66.249.66.113 /scausy/home/index/news?&P=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_article` LIMIT 1   [ RunTime:0.0166s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 9,3   [ RunTime:0.0500s ]
+NOTIC: [8] Undefined variable: article /alidata/www/default/scausy/Application/Home/Controller/IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006626s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006785s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001439s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008524s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-02-17T17:55:23+08:00 ] 220.181.108.142 /scausy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1297s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005075s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005244s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001444s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007081s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-02-17T18:27:51+08:00 ] 42.62.36.231 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1303s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-02-17T18:27:52+08:00 ] 42.62.36.231 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1007s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006822s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006680s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006922s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009498s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001395s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008663s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-02-17T18:40:22+08:00 ] 40.77.167.11 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1565s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005662s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005913s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001531s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007903s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-02-17T18:40:30+08:00 ] 123.125.71.109 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0877s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005306s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005464s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001363s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007221s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-02-17T19:11:08+08:00 ] 66.249.66.75 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1382s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005126s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005314s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007638s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001857s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007548s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-02-17T19:50:27+08:00 ] 220.181.108.88 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.0914s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005100s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005258s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001829s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007548s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-02-17T20:30:08+08:00 ] 66.249.66.111 /scausy/home/index/showArticle?group=Article&id=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0198s ]
+SQL: UPDATE `sy_article` SET `createtime`=createtime+1 WHERE `id` = 41 [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sy_article` WHERE `id` = 41  [ RunTime:0.0192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-02-17T20:49:26+08:00 ] 220.181.108.162 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1187s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005189s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005354s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007691s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001531s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007249s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-02-17T22:35:54+08:00 ] 123.125.71.106 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1691s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005076s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005230s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001421s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006955s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-02-17T22:38:34+08:00 ] 66.249.66.113 /scausy/home/index/exemplar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `sy_essay` [ RunTime:0.0273s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_essay` LIMIT 1   [ RunTime:0.0262s ]
+SQL: SELECT * FROM `sy_essay` ORDER BY id desc LIMIT 0,6   [ RunTime:0.1310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002651s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002802s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004889s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001371s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004470s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-02-17T23:06:30+08:00 ] 66.249.66.115 /scausy/home/index/showArticle?group=New&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0198s ]
+SQL: UPDATE `sy_article` SET `createtime`=createtime+1 WHERE `id` = 9 [ RunTime:0.0192s ]
+SQL: SELECT * FROM `sy_article` WHERE `id` = 9  [ RunTime:0.0193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/bb3616881cce080f44387b372b32f896.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/bb3616881cce080f44387b372b32f896.php 第 65 行.
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/bb3616881cce080f44387b372b32f896.php 第 67 行.
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/bb3616881cce080f44387b372b32f896.php 第 68 行.
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/bb3616881cce080f44387b372b32f896.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-02-17T23:31:58+08:00 ] 220.181.108.91 /scausy/home/index/activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `sy_news` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sy_news` LIMIT 1   [ RunTime:0.0216s ]
+SQL: SELECT * FROM `sy_news` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0189s ]
+NOTIC: [8] Undefined variable: article /alidata/www/default/scausy/Application/Home/Controller/IndexController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004243s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004417s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006569s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001407s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006037s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-02-17T23:40:45+08:00 ] 123.125.71.114 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.1445s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005606s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005532s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005685s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001577s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007569s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-02-17T23:44:03+08:00 ] 220.181.108.178 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.3534s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined offset: 1 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 2 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 3 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+NOTIC: [8] Undefined offset: 4 /alidata/www/default/scausy/Application/Runtime/Cache/Home/9f3194e72bdc509fe5c1644316ad2336.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005404s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005571s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007841s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001387s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007269s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php:95) /alidata/www/default/scausy/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+

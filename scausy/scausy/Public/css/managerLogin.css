@@ -1,0 +1,46 @@
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 48px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    min-height: 700px;
+    background-image: url();
+}
+#form_screen{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#font{
+	display: inline;
+	margin-top: -10px;
+	margin-left: -5px;
+}
+#logo {
+	margin-top: -13px;
+	display: inline;
+}
+a:focus{
+    outline: none;
+}
+
+#mytab,#login{
+	font-size: 17px;
+	font-weight: 600;
+	/*padding-left: 10px;*/
+}
+#mytab li{
+	margin-left: 20px;
+}
+
+.nav-mo{
+	font-size: 20px;
+	margin-top: 25px;
+}
+.nav-mo li a{
+	color: antiquewhite;
+}
+.nav-mo li a:hover,.nav-mo li a:focus{
+	color: black;
+	background-color: white;
+}

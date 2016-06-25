@@ -1,0 +1,47 @@
+<div>
+  <div id="main-content">
+ 
+    
+    <h2>新文章</h2>
+	<br></br>
+	
+   	<!-- 实例化百度编辑器 -->
+
+   	<form action="__URL__/{$btn_ok_act}"  method="post">
+   		<p class="subtit">文章标题</p>
+		<div>
+			<select id="selType">
+				<option value="0">请选择</option>
+				<option value="1">原创</option>
+				<option value="2">转载</option>
+				<option value="4">翻译</option>
+			</select>
+			<input type="text" id="txtTitle" name="subject" style="width:560px; height:20px; float:left;" maxlength="100" value="{$article_item.subject}"/>
+		</div>
+		<br></br>
+		<p class="subtit">文章内容</p>
+	    <div id="myEditor">
+			<script type="text/javascript">
+				var editor = new baidu.editor.ui.Editor({
+				    initialContent: '{$article_item.message}'
+				});
+				editor.render("myEditor");
+			</script>
+		</div>
+		<br></br>
+		<input type="hidden" value="{$article_item.id}" name="id"/>
+		<input type="submit" value="{$btn_ok_text}"/>
+	</form>
+    <div class="clear"></div>
+        
+    <div id="footer"> 
+    	<small>
+      		&#169; Copyright 2012 SIA | Powered by Ruby97 		| 	<a href="#">Top</a> 
+      	</small> 
+    </div>
+    
+  </div>
+
+</div>
+</body>
+</html>

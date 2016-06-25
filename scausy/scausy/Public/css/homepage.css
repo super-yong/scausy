@@ -1,0 +1,412 @@
+body{
+	font: normal 150% Helvetica, Arial, sans-serif;
+}
+#body_container{
+	min-width: 900px;
+	/*background: url(../img/school.jpg) no-repeat center center fixed;*/
+	/*background-repeat:no-repeat; 
+	background-attachment:fixed;*/
+}
+.content{
+	margin-top: 50px;
+	margin-bottom: -23px;
+	
+	/*background-color: darkgray;*/
+	/*background: url(../img/Redocn_2012050200301220.jpg) no-repeat center center fixed;*/
+	min-height: 550px;
+	z-index: -2;
+}
+
+.login_pane{
+	position: absolute;
+    right:5px;
+	height:320px;
+	width: 280px;
+	padding: 20px;
+	background-color: rgba(255,255,255,0.5);
+	z-index:2;
+}
+
+.exit_log{
+	position: absolute;
+    right:5px;
+	width: 240px;
+	z-index: 5;
+	background-color: rgba(255,255,255,0.7);
+}
+.log_hover{
+	width: 120px;
+	height: 40px;
+	padding-top: 5px;
+}
+.log_hover a{
+	font-size: 1.25em;
+	color: gray;
+}
+.log_hover a:hover{
+	text-decoration: none;
+	color: white;
+}
+#logout:hover,#data_in:hover{
+	background-color:cornflowerblue;
+	color: white;
+}
+
+#home-img{
+	height:100% ;
+	width:100%;
+	 -webkit-filter:blur(2px);
+    -moz-filter:blur(2px);
+    -o-filter:blur(2px);
+    filter:blur(2px);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+	
+}
+
+#home-img:hover{
+	-webkit-filter:blur(0px);
+    -moz-filter:blur(0px);
+    -o-filter:blur(0px);
+    filter:blur(0px);
+}
+
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 390px;
+    /*background-image: url(../img/014.jpg);*/
+}
+
+.jumbotron_content {
+	color: white;
+	margin-top: 160px;
+}
+.jumbotron_content h1{
+	font-family:"宋体";
+	font-weight: 600;
+	letter-spacing: 4px;
+}
+.jumbotron_content p{
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	margin-top: 15px;
+}
+
+.jumbotron .scrollNews{
+	width:700px;
+	height:30px;
+	line-height:30px;
+	position: absolute;
+	overflow:hidden;
+	/*background:#FFFFFF;*/
+	left: 50%;
+	margin-left: -350px;
+	bottom: 30px;
+
+}
+.jumbotron .scrollNews ul{
+	width:4000px;
+}
+.jumbotron .scrollNews li{
+		height:30px;
+		width: 700px;
+		list-style: none;
+		display: inline-block;
+		text-align: center;
+}
+.jumbotron .scrollNews li a{
+	height:30px;
+	font-size: 18px;
+	line-height: 30px;
+	color: white;
+	font-weight: 600;	
+}
+
+
+.first,.three{
+	height: 500px;
+	background-color: white;
+}
+.second,.four{
+	height: 500px;
+	background:rgba(57,152,229,0.7) !important;
+}
+.contain{
+	width: 80%;
+	padding-top: 30px;
+}
+.first_title h2,.second_title h2,.three_title h2,.four_title h2{
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.first_foot{
+	float: right;	
+	margin-bottom:0px;
+	margin-right: 50px;
+}
+
+.second_p{
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	margin-top: 80px;
+}
+
+#font{
+	display: inline;
+	margin-top: -10px;
+	margin-left: -5px;
+}
+#logo {
+	margin-top: -13px;
+	display: inline;
+}
+a:focus{
+    outline: none;
+    
+}
+
+#mytab,#login{
+	font-size: 1.4em;
+	font-weight: 600;
+	font-size: 18px;
+	/*padding-left: 10px;*/
+}
+#mytab li{
+	margin-left: 20px;
+}
+#mytab li a:hover{
+	/*font-weight: 600;*/
+}
+
+.img{
+	 width:100%;
+	 height:300px !important;
+	 overflow: hidden;
+}
+
+#siyuan{
+	width: 33%;
+	height: 30%;
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	background:rgba(255,255,255,0.3);
+	border-radius: 10px;
+}
+#siyuan h1{
+	
+	font-family: "楷体";
+	font-size: 5em;
+	opacity: 1;	
+}
+
+.widget{
+	padding: 0px 30px;
+}
+.news{
+	/*width: 800px;*/
+	padding-bottom: 30px ;
+	/*border-bottom: 1px solid gainsboro;*/
+	/*margin-bottom: 10px;*/
+	clear: left;
+	font-size: 1.1em;
+	
+}
+.alink{
+	width: 61%;
+	display: block;
+	float: left;
+	color: gray;
+	overflow: hidden;
+}
+
+.editor ,.time, .open{
+	/*display: none;*/
+	width: 16%;
+	color:gray;
+	margin-left: 20px;
+	float: left;
+	display: block;
+}
+
+.footing{
+	/*height: 100px;*/
+	padding-top: 20px;
+	background-color: #222222;
+	padding-bottom: 10px;
+}
+
+.link_title{
+	border-bottom: 1px solid #525252;
+	color: white;
+	padding-bottom: 7px;
+	margin-bottom: 15px;
+	
+}
+.friend_link{
+	color: #959595;
+}
+
+.friend_link a{
+	display: block;
+	border-bottom: 1px dashed #464646;
+	padding-bottom: 7px;
+	margin-bottom: 10px;
+	color: #959595;
+	transition: all 0.2s ease 0s;
+}
+.friend_link a:hover{
+	color: white;
+	/*background-color: #464646;*/
+}
+
+.foot_last{
+	color:#3e3e3e;
+	height: 40px;
+    background-color: #101010;
+}
+.foot_last p{
+	text-align: center;
+	padding-top: 13px;
+	margin-bottom: 0px;
+}
+
+.page{
+	background-color:#EBEBEB;
+	padding: 60px 0px;
+	z-index: 0;
+	position: relative;
+}
+
+.goback-top{
+	/*display: block;*/	
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	left: 90%;
+	top: 80%;
+	z-index: 10;
+}
+.goback-top a{
+	text-align: center;
+	display: block;	
+	background-color: white;
+	
+}
+
+.goback-top a:hover{
+	background-color: #39c;
+	
+}
+
+
+/*
+ *通知 
+ */
+.page2_news{
+   padding: 10px 30px 10px;
+   margin-bottom: 30px;
+   overflow: hidden;
+   background: white;
+   display: block;	
+}
+.post_meta{
+	margin-top: 20px;
+	color: gray;
+}
+.post_content{
+	margin: 20px 0px;
+}
+.read_all a:hover{
+	background: blueviolet;
+}
+.read_all a:focus{
+	outline:none;
+}
+.post_footer{
+	margin-top: 20px;
+	padding-top: 20px;
+
+	border-top: 1px solid #EBEBEB;
+}
+.post_footer p{
+	color:gray;
+	float: right;
+}
+
+/**
+ * 模范引领
+ */
+.thumbnail:hover{
+	-moz-filter:blur(1px);
+	-wibkit-fiter:blur(1px);
+	-o-filter:blur(1px);
+	filter: blur(1px);
+	transition: all 0.3s linear;
+}
+
+/*
+ * 组织架构
+ */
+.organ_logo img{
+	width: 200px;
+	margin: 0px 30px 20px 30px;
+	/*border-bottom: 2px solid forestgreen;*/
+  	/*height:;*/
+}
+#siyuan_tab{
+	margin-bottom: 100px;
+}
+.organ_li{
+	background: rgba(230,230,230,0.9);
+	margin: -2px;
+}
+
+.siyuan_nav{
+	width: 800px;
+	padding-left: 30px;
+	/*padding-top: 20px;*/
+}
+
+.post{
+	position: relative;
+margin-bottom: 30px;
+padding-bottom: 0px;
+background-color: #FFF;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+background-color: ghostwhite;
+min-height: 400px;
+}
+.post-featured-image {
+    position: relative;
+    padding-top: 62.5%;
+    overflow: hidden;
+}
+.post-featured-image .thumbnail {
+    margin-bottom: 0px;
+    padding: 8px;
+    border-radius: 0px;
+    border: medium none;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 5px;
+    line-height: 1.42857;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    transition: border 0.2s ease-in-out 0s;
+}
+

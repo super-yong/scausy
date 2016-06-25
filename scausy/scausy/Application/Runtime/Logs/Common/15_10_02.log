@@ -1,0 +1,90 @@
+[ 2015-10-02T00:20:59+08:00 ] 127.0.0.1 /1/webroot/index.php/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:21:22+08:00 ] 127.0.0.1 /1/webroot/Public/css/openNews.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-02T00:21:26+08:00 ] 127.0.0.1 /1/webroot/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:21:34+08:00 ] 127.0.0.1 /1/webroot/index.php/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:21:48+08:00 ] 127.0.0.1 /1/webroot/index.php/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:22:13+08:00 ] 127.0.0.1 /1/webroot/index.php/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:23:28+08:00 ] 127.0.0.1 /1/webroot/index.php/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:25:26+08:00 ] 127.0.0.1 /1/webroot/index.php/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:25:28+08:00 ] 127.0.0.1 /1/webroot/index.php/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:25:29+08:00 ] 127.0.0.1 /1/webroot/index.php/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:25:31+08:00 ] 127.0.0.1 /1/webroot/index.php/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:26:14+08:00 ] 127.0.0.1 /1/webroot/index.php/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:32:08+08:00 ] 127.0.0.1 /1/webroot/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:32:38+08:00 ] 127.0.0.1 /1/webroot/__ROOT__/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2015-10-02T00:56:20+08:00 ] 127.0.0.1 /1/webroot/Application/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Application
+

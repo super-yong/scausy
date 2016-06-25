@@ -1,0 +1,807 @@
+[ 2016-05-22T00:03:11+08:00 ] 203.208.60.147 /scausy/home/index/showArticle?group=New&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T00:40:07+08:00 ] 123.125.71.78 /scausy/home/index/news?P=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T00:42:29+08:00 ] 123.125.71.110 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T00:43:21+08:00 ] 42.156.136.51 /scausy/home/index/exemplar?P=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T01:49:09+08:00 ] 220.181.108.121 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T02:01:42+08:00 ] 42.200.35.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T02:21:26+08:00 ] 123.125.71.27 /scausy/home/index/showExemplar?id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T02:27:44+08:00 ] 123.125.71.70 /scausy/home/index/organization
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_organization' doesn't exist
+
+[ 2016-05-22T02:55:50+08:00 ] 123.125.71.16 /scausy/home/index/news?P=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T03:19:22+08:00 ] 157.55.39.249 /scausy/home/index/news?&P=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T03:28:06+08:00 ] 123.125.71.51 /scausy/home/index/showArticle?group=Article&id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T03:30:32+08:00 ] 51.255.65.96 /scausy/home/index/activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_news' doesn't exist
+
+[ 2016-05-22T03:31:36+08:00 ] 119.57.158.244 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T03:36:26+08:00 ] 119.57.158.244 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T04:02:30+08:00 ] 220.181.108.80 /home/index/exemplar?P=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T04:18:05+08:00 ] 42.156.136.51 /scausy/home/index/exemplar?P=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T04:35:50+08:00 ] 123.125.71.89 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T05:00:50+08:00 ] 203.208.60.143 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T05:56:49+08:00 ] 51.255.65.43 /scausy/home/index/showExemplar?id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T06:16:24+08:00 ] 69.30.213.18 /scausy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T06:16:27+08:00 ] 69.30.213.18 /scausy/home/index/exemplar?&P=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T06:16:29+08:00 ] 69.30.213.18 /scausy/home/index/exemplar?&P=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T06:16:31+08:00 ] 69.30.213.18 /scausy/home/index/news?&P=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T06:16:33+08:00 ] 69.30.213.18 /scausy/home/index/news?&P=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T06:18:19+08:00 ] 182.118.21.236 /scausy/home/index/showArticle?group=Article&id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T07:09:35+08:00 ] 202.108.211.59 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T07:09:35+08:00 ] 202.108.211.59 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T07:37:46+08:00 ] 121.42.0.33 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T07:51:44+08:00 ] 68.180.228.114 /scausy/home/index/news?&P=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T07:54:41+08:00 ] 220.181.108.187 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T08:02:08+08:00 ] 121.42.0.61 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T08:02:08+08:00 ] 121.42.0.59 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T08:15:22+08:00 ] 207.46.13.58 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T09:38:33+08:00 ] 220.181.108.91 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T09:57:07+08:00 ] 140.207.198.165 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T10:35:00+08:00 ] 203.208.60.146 /scausy/home/index/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T10:38:12+08:00 ] 203.208.60.180 /scausy/home/index/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T12:11:53+08:00 ] 203.208.60.142 /scausy/home/index/showArticle?group=Article&id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T12:48:20+08:00 ] 203.208.60.141 /scausy/home/index/showArticle?group=Article&id=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T15:49:12+08:00 ] 119.57.158.71 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T15:49:12+08:00 ] 119.57.158.71 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T15:58:31+08:00 ] 61.135.189.110 /scausy/home/index/showArticle?group=Article&id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T15:58:41+08:00 ] 61.135.189.110 /scausy/home/index/showArticle?group=Article&id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T15:58:51+08:00 ] 61.135.189.110 /scausy/home/index/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:32:04+08:00 ] 203.208.60.130 /scausy/home/index/activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_news' doesn't exist
+
+[ 2016-05-22T16:32:06+08:00 ] 203.208.60.132 /scausy/home/index/showArticle?group=Article&id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:32:07+08:00 ] 203.208.60.136 /scausy/home/index/showArticle?group=Article&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:32:07+08:00 ] 203.208.60.138 /scausy/home/index/organization
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_organization' doesn't exist
+
+[ 2016-05-22T16:32:08+08:00 ] 203.208.60.131 /scausy/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:32:08+08:00 ] 203.208.60.140 /scausy/home/index/showArticle?group=Article&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:32:12+08:00 ] 203.208.60.134 /scausy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:34:09+08:00 ] 203.208.60.132 /scausy/home/index/showArticle?group=Article&id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:34:10+08:00 ] 203.208.60.145 /scausy/home/index/showArticle?group=Article&id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:35:13+08:00 ] 203.208.60.182 /scausy/home/index/organization
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_organization' doesn't exist
+
+[ 2016-05-22T16:39:00+08:00 ] 203.208.60.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:39:01+08:00 ] 203.208.60.173 /scausy/home/index/activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_news' doesn't exist
+
+[ 2016-05-22T16:41:34+08:00 ] 203.208.60.180 /scausy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:44:00+08:00 ] 203.208.60.173 /scausy/home/index/exemplar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T16:44:33+08:00 ] 203.208.60.190 /scausy/home/login/isLogout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-05-22T16:44:33+08:00 ] 203.208.60.180 /scausy/home/index/showArticle?group=Article&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:44:33+08:00 ] 203.208.60.180 /scausy/home/index/showArticle?group=Article&id=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:44:43+08:00 ] 203.208.60.183 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:49:04+08:00 ] 203.208.60.144 /scausy/home/index/showArticle?group=Article&id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:49:05+08:00 ] 203.208.60.185 /scausy/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:54:03+08:00 ] 203.208.60.174 /scausy/home/index/showArticle?group=Article&id=54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:54:04+08:00 ] 203.208.60.175 /scausy/home/index/showArticle?group=Article&id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T16:58:58+08:00 ] 203.208.60.142 /scausy/home/personalInfo/personalInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-05-22T16:58:59+08:00 ] 203.208.60.130 /scausy/home/login/isLogout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-05-22T16:59:35+08:00 ] 119.147.146.189 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T17:04:10+08:00 ] 203.208.60.130 /scausy/home/index/showArticle?group=Article&id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T17:17:59+08:00 ] 220.181.108.123 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T17:30:55+08:00 ] 203.208.60.131 /scausy/home/index/showArticle?group=Article&id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T18:07:04+08:00 ] 164.132.161.58 /scausy/home/index/news?&P=4%20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T18:40:48+08:00 ] 123.125.71.80 /scausy/home/index/organization
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_organization' doesn't exist
+
+[ 2016-05-22T18:56:55+08:00 ] 207.46.13.75 /scausy/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T19:04:04+08:00 ] 203.208.60.145 /scausy/home/index/showExemplar?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T19:41:34+08:00 ] 203.208.60.138 /scausy/home/index/showExemplar?id=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T19:42:08+08:00 ] 42.156.136.51 /scausy/home/index/showArticle?group=Article&id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T19:47:28+08:00 ] 207.46.13.58 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T19:47:28+08:00 ] 123.125.71.79 /scausy/home/index/news?P=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T21:23:45+08:00 ] 203.208.60.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T21:30:41+08:00 ] 218.241.98.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T21:32:45+08:00 ] 203.208.60.146 /scausy/index.php/home/index/exemplar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T21:51:15+08:00 ] 203.208.60.141 /scausy/home/index/exemplar?&P=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T21:54:15+08:00 ] 203.208.60.188 /scausy/home/index/exemplar?&P=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_essay' doesn't exist
+
+[ 2016-05-22T22:04:44+08:00 ] 42.156.136.51 /scausy/home/index/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T22:15:28+08:00 ] 203.208.60.175 /scausy/home/index/showArticle?group=Article&id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T22:27:35+08:00 ] 203.208.60.182 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+
+[ 2016-05-22T23:10:26+08:00 ] 66.249.66.50 /scausy/home/index/showArticle?group=Article&id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scausy.sy_article' doesn't exist
+

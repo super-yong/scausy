@@ -1,0 +1,968 @@
+[ 2015-10-18T23:09:31+08:00 ] 127.0.0.1 /scausy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0466s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.7452s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined offset: 1 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 2 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 3 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.044064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042362s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.043454s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.061774s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015458s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.051355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.066540s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044884s ]
+
+[ 2015-10-18T23:09:32+08:00 ] 127.0.0.1 /scausy/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2015-10-18T23:09:32+08:00 ] 127.0.0.1 /scausy/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-10-18T23:09:35+08:00 ] 127.0.0.1 /scausy/index.php/home/login/zhengfang%20?%20username=201330340514&password=021211lcy&code=&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0520s ]
+NOTIC: [8] Undefined index: username F:\Apache24\htdocs\scausy\Application\Home\Controller\LoginController.class.php 第 92 行.
+NOTIC: [8] Undefined index: password F:\Apache24\htdocs\scausy\Application\Home\Controller\LoginController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0514s ]
+SQL: select * from sy_students where id ='' AND password ='d41d8cd98f00b204e9800998ecf8427e' [ RunTime:0.0514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2015-10-18T23:09:36+08:00 ] 127.0.0.1 /scausy/index.php/home/login/zhengfang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0522s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0515s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='4b7a957ecc57d92e5c9d382fba6279d0' [ RunTime:0.0511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2015-10-18T23:09:38+08:00 ] 127.0.0.1 /scausy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0557s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.7570s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined offset: 1 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 2 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 3 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010595s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008847s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009396s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017550s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004073s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.012071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015379s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2015-10-18T23:09:38+08:00 ] 127.0.0.1 /scausy/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2015-10-18T23:09:38+08:00 ] 127.0.0.1 /scausy/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-10-18T23:09:40+08:00 ] 127.0.0.1 /scausy/index.php/home/personalInfo/personalInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\Apache24\htdocs\scausy\ThinkPHP\Common\functions.php 第 1651 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `sy_students` WHERE `id` = '201330340514'  [ RunTime:0.0532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000682s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] Undefined offset: 1 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\e40fe6ab9c9805f74daa0acfa0f399c4.php 第 118 行.
+NOTIC: [8] Undefined offset: 2 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\e40fe6ab9c9805f74daa0acfa0f399c4.php 第 119 行.
+NOTIC: [8] Undefined offset: 3 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\e40fe6ab9c9805f74daa0acfa0f399c4.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2015-10-18T23:09:44+08:00 ] 127.0.0.1 /scausy/index.php/home/personalInfo/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0518s ]
+SQL: DELETE FROM `sy_students` WHERE `id` = '201330340514' AND `password` = '4b7a957ecc57d92e5c9d382fba6279d0' [ RunTime:0.1638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-10-18T23:09:46+08:00 ] 127.0.0.1 /scausy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.7454s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined offset: 1 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 2 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 3 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007827s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008238s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013935s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002992s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012873s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2015-10-18T23:09:46+08:00 ] 127.0.0.1 /scausy/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2015-10-18T23:09:46+08:00 ] 127.0.0.1 /scausy/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-10-18T23:09:50+08:00 ] 127.0.0.1 /scausy/index.php/home/login/login?%20studentnumber=201330340514%20&password=021211lcy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0541s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='4b7a957ecc57d92e5c9d382fba6279d0' [ RunTime:0.0533s ]
+
+[ 2015-10-18T23:09:57+08:00 ] 127.0.0.1 /scausy/index.php/home/login/zhengfang%20?%20username=201330340514&password=021211lcy&code=mva0&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0518s ]
+NOTIC: [8] Undefined index: username F:\Apache24\htdocs\scausy\Application\Home\Controller\LoginController.class.php 第 92 行.
+NOTIC: [8] Undefined index: password F:\Apache24\htdocs\scausy\Application\Home\Controller\LoginController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0505s ]
+SQL: select * from sy_students where id ='' AND password ='d41d8cd98f00b204e9800998ecf8427e' [ RunTime:0.0508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2015-10-18T23:09:59+08:00 ] 127.0.0.1 /scausy/index.php/home/login/zhengfang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0456s ]
+NOTIC: [8] Undefined variable: ch F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 57 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `sy_course` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `sy_course` WHERE `id` = '201330340514'  [ RunTime:0.0461s ]
+SQL: UPDATE `sy_course` SET `1-1`='外教英语Ⅳ周一第1,2节{第1-2周}Jonathan3504外教英语Ⅳ周一第1,2节{第4-17周}Jonathan3504',`1-2`='软件开发基础（.JAVA）周一第3,4节{第4-17周}毛宜军3302软件开发基础（.JAVA）周一第3,4节{第1-2周}毛宜军3302',`1-3`='算法分析与设计周一第7,8节{第1-2周}郑婵3301算法分析与设计周一第7,8节{第4-17周}郑婵3301',`1-4`='算法分析与设计实验周一第9,10节{第6-13周}郑婵',`2-1`='计算机网络周二第1,2节{第1-2周}潘春华3607计算机网络周二第1,2节{第4-13周}潘春华3607',`2-2`='数据库系统周二第3,4节{第4-17周}郭玉彬3402数据库系统周二第3,4节{第1-2周}郭玉彬3402',`2-3`='无课',`2-4`='软件开发基础（Java）实验周二第11,12节{第6-13周}毛宜军',`3-1`='软件工程周三第1,2节{第4-17周}林毅申3602软件工程周三第1,2节{第1-2周}林毅申3602',`3-2`='无课',`3-3`='软件工程实验周三第7,8节{第6-13周}林毅申',`3-4`='无课',`4-1`='无课',`4-2`='数据库系统周四第3,4节{第2-16周|双周}郭玉彬3211',`4-3`='无课',`4-4`='无课',`5-1`='无课',`5-2`='计算机网络周五第3,4节{第4-13周}潘春华3605计算机网络周五第3,4节{第1-2周}潘春华3605',`5-3`='无课',`5-4`='计算机网络实验周五第9,10节{第7-14周}潘春华' WHERE `id` = '201330340514' [ RunTime:0.0502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-10-18T23:10:06+08:00 ] 127.0.0.1 /scausy/index.php/home/login/sentEmail?college=%E6%95%B0%E5%AD%A6%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AD%A6%E9%99%A2&name=%E5%88%98%E8%B6%85%E5%8B%87&studentnumber=201330340514&grade=2013&major=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%5B%E8%BD%AF%E4%BB%B6%5D&class=13%E8%BD%AF%E5%B7%A5R5&password=4b7a957ecc57d92e5c9d382fba6279d0&email=601647957%40qq.com&phone=&group=%E7%94%9F%E5%A7%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0542s ]
+SQL: INSERT INTO `sy_students` (`id`,`grade`,`major`,`class`,`name`,`email`,`groups`,`college`,`phone`,`created`,`password`) VALUES ('201330340514','2013','软件工程[软件]','13软工R5','刘超勇','601647957@qq.com','生委','数学与信息学院','','1445267402','4b7a957ecc57d92e5c9d382fba6279d0') [ RunTime:0.0578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2015-10-18T23:10:11+08:00 ] 127.0.0.1 /scausy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.7462s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0458s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined offset: 1 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 2 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 3 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006784s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007140s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002888s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012612s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-10-18T23:10:11+08:00 ] 127.0.0.1 /scausy/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2015-10-18T23:10:11+08:00 ] 127.0.0.1 /scausy/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2015-10-18T23:19:35+08:00 ] 127.0.0.1 /scausy/index.php/home/personalInfo/personalInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\Apache24\htdocs\scausy\ThinkPHP\Common\functions.php 第 1651 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `sy_students` WHERE `id` = '201330340514'  [ RunTime:0.0549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined offset: 1 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\e40fe6ab9c9805f74daa0acfa0f399c4.php 第 118 行.
+NOTIC: [8] Undefined offset: 2 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\e40fe6ab9c9805f74daa0acfa0f399c4.php 第 119 行.
+NOTIC: [8] Undefined offset: 3 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\e40fe6ab9c9805f74daa0acfa0f399c4.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-10-18T23:19:39+08:00 ] 127.0.0.1 /scausy/index.php/home/personalInfo/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0487s ]
+SQL: DELETE FROM `sy_students` WHERE `id` = '201330340514' AND `password` = '4b7a957ecc57d92e5c9d382fba6279d0' [ RunTime:0.0603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002022s ]
+
+[ 2015-10-18T23:19:40+08:00 ] 127.0.0.1 /scausy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.7449s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined offset: 1 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 2 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 3 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007949s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008652s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016816s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004617s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.012522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016757s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2015-10-18T23:19:40+08:00 ] 127.0.0.1 /scausy/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2015-10-18T23:19:40+08:00 ] 127.0.0.1 /scausy/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2015-10-18T23:19:46+08:00 ] 127.0.0.1 /scausy/index.php/home/login/login?%20studentnumber=201330340514%20&password=021211lcy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0513s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='4b7a957ecc57d92e5c9d382fba6279d0' [ RunTime:0.0514s ]
+
+[ 2015-10-18T23:19:51+08:00 ] 127.0.0.1 /scausy/index.php/home/login/zhengfang%20?%20username=201330340514&password=021211lcy&code=msf4&%20i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0528s ]
+NOTIC: [8] Undefined index: username F:\Apache24\htdocs\scausy\Application\Home\Controller\LoginController.class.php 第 92 行.
+NOTIC: [8] Undefined index: password F:\Apache24\htdocs\scausy\Application\Home\Controller\LoginController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0521s ]
+SQL: select * from sy_students where id ='' AND password ='d41d8cd98f00b204e9800998ecf8427e' [ RunTime:0.0505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2015-10-18T23:19:52+08:00 ] 127.0.0.1 /scausy/index.php/home/login/zhengfang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0504s ]
+NOTIC: [8] Undefined variable: ch F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 57 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `sy_course` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `sy_course` WHERE `id` = '201330340514'  [ RunTime:0.0504s ]
+SQL: UPDATE `sy_course` SET `1-1`='外教英语Ⅳ周一第1,2节{第1-2周}Jonathan3504外教英语Ⅳ周一第1,2节{第4-17周}Jonathan3504',`1-2`='软件开发基础（.JAVA）周一第3,4节{第4-17周}毛宜军3302软件开发基础（.JAVA）周一第3,4节{第1-2周}毛宜军3302',`1-3`='算法分析与设计周一第7,8节{第1-2周}郑婵3301算法分析与设计周一第7,8节{第4-17周}郑婵3301',`1-4`='算法分析与设计实验周一第9,10节{第6-13周}郑婵',`2-1`='计算机网络周二第1,2节{第1-2周}潘春华3607计算机网络周二第1,2节{第4-13周}潘春华3607',`2-2`='数据库系统周二第3,4节{第4-17周}郭玉彬3402数据库系统周二第3,4节{第1-2周}郭玉彬3402',`2-3`='无课',`2-4`='软件开发基础（Java）实验周二第11,12节{第6-13周}毛宜军',`3-1`='软件工程周三第1,2节{第4-17周}林毅申3602软件工程周三第1,2节{第1-2周}林毅申3602',`3-2`='无课',`3-3`='软件工程实验周三第7,8节{第6-13周}林毅申',`3-4`='无课',`4-1`='无课',`4-2`='数据库系统周四第3,4节{第2-16周|双周}郭玉彬3211',`4-3`='无课',`4-4`='无课',`5-1`='无课',`5-2`='计算机网络周五第3,4节{第4-13周}潘春华3605计算机网络周五第3,4节{第1-2周}潘春华3605',`5-3`='无课',`5-4`='计算机网络实验周五第9,10节{第7-14周}潘春华' WHERE `id` = '201330340514' [ RunTime:0.0554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2015-10-18T23:19:58+08:00 ] 127.0.0.1 /scausy/index.php/home/login/sentEmail?college=%E6%95%B0%E5%AD%A6%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AD%A6%E9%99%A2&name=%E5%88%98%E8%B6%85%E5%8B%87&studentnumber=201330340514&grade=2013&major=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%5B%E8%BD%AF%E4%BB%B6%5D&class=13%E8%BD%AF%E5%B7%A5R5&password=4b7a957ecc57d92e5c9d382fba6279d0&email=601647957%40qq.com&phone=&group=%E7%94%9F%E5%A7%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0521s ]
+SQL: INSERT INTO `sy_students` (`id`,`grade`,`major`,`class`,`name`,`email`,`groups`,`college`,`phone`,`created`,`password`) VALUES ('201330340514','2013','软件工程[软件]','13软工R5','刘超勇','601647957@qq.com','生委','数学与信息学院','','1445267996','4b7a957ecc57d92e5c9d382fba6279d0') [ RunTime:0.0582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2015-10-18T23:20:04+08:00 ] 127.0.0.1 /scausy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0459s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.7454s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0454s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined offset: 1 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 2 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 3 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005927s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006260s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002177s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012417s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2015-10-18T23:20:04+08:00 ] 127.0.0.1 /scausy/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2015-10-18T23:20:04+08:00 ] 127.0.0.1 /scausy/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2015-10-18T23:37:48+08:00 ] 127.0.0.1 /scausy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.7038s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Undefined offset: 1 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 2 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 3 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016613s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015399s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016133s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008084s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.024658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.032107s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2015-10-18T23:37:48+08:00 ] 127.0.0.1 /scausy/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-10-18T23:37:48+08:00 ] 127.0.0.1 /scausy/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-10-18T23:37:52+08:00 ] 127.0.0.1 /scausy/index.php/home/login/zhengfang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0461s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0455s ]
+SQL: select * from sy_students where id ='201330340514' AND password ='d07c1e725900bd80247a4335bd28c574' [ RunTime:0.0450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2015-10-18T23:37:54+08:00 ] 127.0.0.1 /scausy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `sy_article` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `sy_article` ORDER BY id desc LIMIT 8   [ RunTime:0.7459s ]
+SQL: SHOW COLUMNS FROM `sy_activity` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `sy_activity`  [ RunTime:0.0452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined offset: 1 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 41 行.
+NOTIC: [8] Undefined offset: 2 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 42 行.
+NOTIC: [8] Undefined offset: 3 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 43 行.
+NOTIC: [8] Undefined offset: 4 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\9f3194e72bdc509fe5c1644316ad2336.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007433s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008368s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004950s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015901s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php:95) F:\Apache24\htdocs\scausy\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2015-10-18T23:37:54+08:00 ] 127.0.0.1 /scausy/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-10-18T23:37:54+08:00 ] 127.0.0.1 /scausy/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008195s ]
+
+[ 2015-10-18T23:38:06+08:00 ] 127.0.0.1 /scausy/index.php/home/login/login?%20studentnumber=admin%20&password=1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0511s ]
+SQL: select * from sy_students where id ='admin' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0506s ]
+
+[ 2015-10-18T23:38:06+08:00 ] 127.0.0.1 /scausy/index.php/home/login/zhengfang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Constant SCRIPT_ROOT already defined F:\Apache24\htdocs\scausy\Application\Home\Api\ZhengfangApi.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0516s ]
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0507s ]
+SQL: select * from sy_students where id ='admin' AND password ='b59c67bf196a4758191e42f76670ceba' [ RunTime:0.0505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: array F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\1fa0a3c4921c3a61cdaaf7eb6e05cbff.php 第 44 行.
+NOTIC: [8] Undefined variable: array F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\1fa0a3c4921c3a61cdaaf7eb6e05cbff.php 第 45 行.
+NOTIC: [8] Undefined variable: array F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\1fa0a3c4921c3a61cdaaf7eb6e05cbff.php 第 46 行.
+NOTIC: [8] Undefined variable: array F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\1fa0a3c4921c3a61cdaaf7eb6e05cbff.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003094s ]
+NOTIC: [8] Undefined variable: article_item F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\0369c7ff58afe6cbfddee81f980ccc4a.php 第 31 行.
+NOTIC: [8] Undefined variable: article_item F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\0369c7ff58afe6cbfddee81f980ccc4a.php 第 38 行.
+NOTIC: [8] Undefined variable: article_item F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\0369c7ff58afe6cbfddee81f980ccc4a.php 第 44 行.
+NOTIC: [8] Undefined variable: group F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\0369c7ff58afe6cbfddee81f980ccc4a.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002311s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-10-18T23:38:10+08:00 ] 127.0.0.1 /scausy/index.php/home/login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2015-10-18T23:38:10+08:00 ] 127.0.0.1 /scausy/index.php/home/login/islogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2015-10-18T23:38:13+08:00 ] 127.0.0.1 /scausy/index.php/home/personalInfo/personalInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' F:\Apache24\htdocs\scausy\ThinkPHP\Common\functions.php 第 1651 行.
+SQL: SHOW COLUMNS FROM `sy_students` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `sy_students` WHERE `id` = 'admin'  [ RunTime:0.0508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined offset: 0 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\e40fe6ab9c9805f74daa0acfa0f399c4.php 第 117 行.
+NOTIC: [8] Undefined offset: 1 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\e40fe6ab9c9805f74daa0acfa0f399c4.php 第 118 行.
+NOTIC: [8] Undefined offset: 2 F:\Apache24\htdocs\scausy\Application\Runtime\Cache\Home\e40fe6ab9c9805f74daa0acfa0f399c4.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
